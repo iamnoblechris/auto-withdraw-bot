@@ -51,4 +51,8 @@ const bot = async () => {
     )
 }
 
+setTimeout(() => {
+  document.location.reload();
+}, 3000);
+
 bot()
